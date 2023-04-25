@@ -1,0 +1,77 @@
+.service
+{
+               overflow: hidden;
+}
+
+.service h2
+{
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-size: 50px;
+}
+
+.service h2 span
+{
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+               background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+               background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.service .top
+{
+               text-align: center;
+               color: gray;
+               font-weight: 300;
+               margin-bottom: 70px;
+}
+
+.service-container
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.carousel
+{
+               overflow-x: scroll;
+               cursor: grab;
+               width: 80%;
+}
+
+.carousel::-webkit-scrollbar
+{
+               width: 0;
+}
+
+.service-parent
+{
+               display: flex;
+               align-items: center;
+}
+
+.box
+{
+               text-align: center;
+               background-color: #f1f2fa;
+               padding: 40px 0;
+               min-width: 20rem;
+               border-radius: 30px;
+               margin: 20px;
+}
+
+.box h3
+{
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+               font-size: 18px;
+               font-weight: 600;
+}
+
+.box p
+{
+               padding: 0 20px;
+               color: gray;
+               font-size: 13px;
+}

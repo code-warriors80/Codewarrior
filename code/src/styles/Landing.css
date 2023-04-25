@@ -1,0 +1,122 @@
+.landing-container
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 100%;
+               height: 100vh;
+               padding: 50px 0;
+}
+
+.it
+{
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+               background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+               background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+
+.img1
+{
+               position: absolute;
+               right: 0px;
+               top: 100px;
+               opacity: 2;
+}
+
+.img2
+{
+               position: absolute;
+               left: 0;
+               top: 280px;
+               opacity: 2;
+}
+
+.landing-img
+{
+               display: flex;
+               align-items: flex-start;
+               justify-content: center;
+               width: 30%;
+               z-index: 555;
+}
+
+.landing-img .man
+{
+               width: 100%;
+               margin-left: 30px;
+}
+
+.landing-img .rocket
+{
+               position: absolute;
+               right: 170px;
+               animation: animate alternate infinite 1s;
+}
+
+@keyframes animate {
+               0%
+               {
+                              position: absolute;
+                              top: 250px;
+               }
+               100%
+               {
+                              position: absolute;
+                              top: 270px;
+               }
+               
+}
+
+.lilhead
+{
+               display: flex;
+               align-items: center;
+               position: relative;
+               top: 60px;
+}
+
+.num1
+{
+               color: #f1f2fa;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lilhead h5
+{
+               margin-left: 20px;
+               font-size: 15px;
+               color: #8169f1;
+}
+
+.landing-text
+{
+               width: 40%;
+               z-index: 555;
+}
+
+.landing-text h1
+{
+               font-size: 85px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               line-height: 120px;
+}
+
+.design
+{
+               background-image: url(../img/intg_back.png);
+               background-position: center;
+               background-size: cover;
+}
+
+.landing-text button
+{
+               padding: 20px 30px;
+               border: 2px solid #8169f1;
+               background-color: transparent;
+               border-radius: 30px;
+               color: #8169f1;
+               font-weight: 600;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}

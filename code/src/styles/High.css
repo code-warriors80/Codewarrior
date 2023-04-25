@@ -1,0 +1,94 @@
+.boxs {
+               --size: 15px;
+               --R: calc(var(--size)*1.28);
+             
+               -webkit-mask:
+                 radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%) 
+                   calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+                 radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%) 
+                   50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+               background: #8169f1;
+               maring: 15px;
+               margin-top: 50px;
+             }
+
+             .boxs
+             {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               padding: 100px 0 0 0;
+             }
+
+             .high-container
+             {
+               display: flex;
+               width: 80%;
+               justify-content: space-between;
+             }
+
+             .high-text
+             {
+               text-align: center;
+             }
+
+             .high-text h4
+             {
+               font-size: 22px;
+               color: white;
+               font-weight: 300;
+             }
+
+             .high-text h2
+             {
+               font-size: 50px;
+               color: white;
+               font-weight: 400;
+             }
+
+             .high-text a
+             {
+              padding: 20px 30px;
+              border: 2px solid white;
+              background-color: transparent;
+              border-radius: 30px;
+              color: white;
+              font-weight: 600;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+              text-decoration: none;
+             }
+
+             .vector1
+             {
+              animation: moveleft infinite 2s alternate;
+             }
+
+
+             @keyframes moveleft {
+              0%
+              {
+                position: relative;
+                left: 30px;
+              }
+              100%{
+                position: relative;
+                left: 50px;
+              }
+             }
+
+             .vector2
+             {
+              animation: moveright infinite 2s alternate;
+             }
+
+             @keyframes moveright {
+              0%
+              {
+                position: relative;
+                right: 30px;
+              }
+              100%{
+                position: relative;
+                right: 50px;
+              }
+             }
